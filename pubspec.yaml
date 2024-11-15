@@ -1,0 +1,49 @@
+name: raven_pay_currency
+description: "A new Flutter project."
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  stacked: ^3.4.2
+  stacked_hooks: ^0.2.4
+  event_bus: ^2.0.0
+  intl: ^0.19.0
+  flutter_spinkit: ^5.2.1
+  web_socket_channel: ^2.1.0
+  dio: ^5.4.3+1
+  # crypto_market: ^0.0.3
+  syncfusion_flutter_charts: ^25.2.5
+  candlesticks: ^2.1.0
+
+# Override dependency versions with the following syntax:
+dependency_overrides:
+  fl_chart: ^0.69.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/landing/
+
+  fonts:
+    - family: Satoshi
+      fonts:
+        - asset: assets/fonts/Satoshi-Regular.otf
+        - asset: assets/fonts/Satoshi-Bold.otf
+        - asset: assets/fonts/Satoshi-Light.otf
+        - asset: assets/fonts/Satoshi-Italic.otf
+        - asset: assets/fonts/Satoshi-Medium.otf
